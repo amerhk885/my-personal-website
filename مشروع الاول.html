@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>صفحتي الشخصية</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: center;
+    }
+    h1 {
+      color: #007bff;
+    }
+    p {
+      font-size: 18px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+    img {
+      border-radius: 50%;
+      margin: 20px 0;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>أهلاً! أنا [اسمك]</h1>
+  <img src="https://via.placeholder.com/200" alt="صورتي" width="200" />
+  <p>مصمم مواقع مبتدئ وأتعلم خطوة بخطوة.</p>
+  <h2>تواصل معي:</h2>
+  <ul>
+    <li>📧 myemail@example.com</li>
+    <li>📞 +964123456789</li>
+  </ul>
+  <button onclick="sayHello()">إضغط للترحيب</button>
+  <br />
+  <a href="https://www.instagram.com/username" target="_blank">📷 تابعني على إنستجرام</a>
+
+  <script>
+    function sayHello() {
+      alert("أهلاً بك في موقعي الشخصي!");
+    }
+  </script>
+</body>
+</html>
